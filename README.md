@@ -28,7 +28,7 @@ Follow these instructions to set up and run the project on your local machine.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/weather-app.git
+    git clone https://github.com/dipenmagdani/weather-app.git
     ```
 2. Navigate to the project directory:
     ```sh
