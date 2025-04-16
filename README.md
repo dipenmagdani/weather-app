@@ -27,25 +27,30 @@ Follow these instructions to set up and run the project on your local machine.
 ### Installation
 
 1. Clone the repository:
-    ```sh
-    git clone https://github.com/dipenmagdani/weather-app.git
-    ```
+   ```sh
+   git clone https://github.com/dipenmagdani/weather-app.git
+   ```
 2. Navigate to the project directory:
-    ```sh
-    cd weather-app
-    ```
+   ```sh
+   cd weather-app
+   ```
 3. Install the dependencies:
-    ```sh
-    npm install
-    # or
-    yarn install
-    ```
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
+4. Enter API Key from https://openweathermap.org/ in .env file
+   ```sh
+   VITE_APP_API_KEY = ""
+   ```
 
 ### Running the Application
 
 To start the development server:
 
 ```sh
-npm start
+npm run dev
 # or
-yarn start
+yarn run dev
+```
